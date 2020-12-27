@@ -28,105 +28,213 @@ struct ContentView: View {
 //                        .frame(width: 200.0, height: 200.0)
                 }
                 
-                HStack(spacing: 50)
+                HStack(spacing: 15)
                 {
-                    VStack{
-                        Text("C")
-                            .font(.title)
-                            .padding()
-                        
-                        Text("7")
-                            .font(.title)
-                            .padding()
-                        
-                        Text("4")
-                            .font(.title)
-                            .padding()
-                        
-                        Text("1")
-                            .font(.title)
-                            .padding()
+                    VStack
+                    {
+                        ZStack
+                        {
+                            Color("grey")
                             
+                            Text("C")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
+                       
+                        
+                        
+                        ZStack{
+                            Color("grey")
                             
+                            Text("7")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
+                        
+                        ZStack{
+                            Color("grey")
+                            
+                            Text("4")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
+                        
+                        ZStack{
+                            Color("grey")
+                            
+                            Text("1")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
                     }
                     
                     
                     VStack{
-                        Text("±")
-                            .font(.title)
-                            .padding()
+                        ZStack{
+                            Color("grey")
+                            
+                            Text("±")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
                         
-                        Text("8")
-                            .font(.title)
-                            .padding()
+                        ZStack{
+                            Color("grey")
+                            
+                            Text("8")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
                         
-                        Text("5")
-                            .font(.title)
-                            .padding()
+                        ZStack{
+                            Color("grey")
+                            
+                            Text("5")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
                         
-                        Text("2")
-                            .font(.title)
-                            .padding()
+                        ZStack{
+                            Color("grey")
+                            
+                            Text("2")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
                         
                     }
                     
-                    VStack{
-                        Text("%")
-                            .font(.title)
-                            .padding()
+                    VStack
+                    {
+                        ZStack{
+                            Color("grey")
+                            
+                            Text("%")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
                         
-                        Text("9")
-                            .font(.title)
-                            .padding()
+                        ZStack{
+                            Color("grey")
+                            
+                            Text("9")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
                         
-                        Text("6")
-                            .font(.title)
-                            .padding()
+                        ZStack{
+                            Color("grey")
+                            
+                            Text("6")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
                         
-                        Text("3")
-                            .font(.title)
-                            .padding()
-                        
-                        //                        Text(".")
-                        //                            .font(.title)
-                        //                            .padding()
+                        ZStack{
+                            Color("grey")
+                            
+                            Text("3")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
                     }
                     
                     VStack{
-                        Text("÷")
-                            .font(.title)
-                            .padding()
+                        ZStack{
+                            Color("Yellow")
+                            
+                            Text("÷")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
                         
-                        Text("x")
-                            .font(.title)
-                            .padding()
+                        ZStack{
+                            Color("Yellow")
+                            
+                            Text("x")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
                         
-                        Text("-")
-                            .font(.title)
-                            .padding()
+                        ZStack{
+                            Color("Yellow")
+                            
+                            Text("-")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
                         
-                        Text("+")
-                            .font(.title)
-                            .padding()
+                        ZStack{
+                            Color("Yellow")
+                            
+                            Text("+")
+                                .font(.title)
+                                .padding()
+                        }
+                        .frame(width: 90.0, height: 90.0)
+                        .cornerRadius(50.0)
                     }
                 }
 
                 HStack
                 {
-                    Text("0")
-                        .font(.title)
-                        .padding(.horizontal, 80)
-                        .padding(.vertical)
+                    ZStack{
+                        Color("grey")
+                        Text("0")
+                            .font(.title)
+//                            .padding(.horizontal, 80)
+                            .padding(.vertical)
                         
+                    }
+                    .frame(width: 200.0, height: 90.0)
+                    .cornerRadius(50.0)
                     
-                    
-                    Text(".")
+                    ZStack{
+                        Color("grey")
+                        Text(".")
+                            .font(.title)
+                            .padding(.vertical)
+                    }
+                    .frame(width: 90.0, height: 90.0)
+                    .cornerRadius(50.0)
+                    ZStack
+                    {
+                        Color("Yellow")
+                        Text("-")
                         .font(.title)
-                        .padding(.horizontal, 30.0)
-                    
-                    Text("-")
-                        .font(.title)
-                        .padding(.horizontal, 40.0)
+                    }
+                    .frame(width: 90.0, height: 90.0)
+                    .cornerRadius(50.0)
                 }
             Spacer()
             }
